@@ -1,6 +1,19 @@
 # Changelog
 
-## 0.2.0
+## 0.2.1 - 2026-09-25
+
+### Changed
+
+- Published the post-migration `github.com/OrbitFabric:orbitfabric/openc3-cosmos@0.2.1` release identity and normalized current metadata.
+- Replaced Git-based acquisition of the pinned Core dependency with a commit-addressed HTTPS source archive; the exact validated Core SHA remains unchanged.
+- Preserved COSMOS projection behavior, the `0.1-candidate` Scenario Projection Accounting surface introduced by `v0.2.0`, and the target compatibility lane.
+
+### Publication
+
+- Published `v0.2.1` with its wheel, Release Descriptor and `SHA256SUMS`; indexed its exact Release Descriptor digest in the canonical Adapter Catalog.
+- Preserved historical `v0.1.0` FAROTECH identity, `v0.2.0` intermediate release and accepted evidence without asserting a separate `v0.2.1` greenfield replay.
+
+## 0.2.0 - 2026-09-21
 
 - Emit the generic Result-owned Scenario Projection Accounting
   `0.1-candidate` artifact from existing adapter projection knowledge.
@@ -30,4 +43,4 @@ The first release intentionally does not add a generic mission-data `project` op
 
 The historical `OrbitFabric-OpenC3-COSMOS-PoC` remains evidence and regression reference. Experiment, G6 and G9 scaffolding is not part of the canonical product structure.
 
-`0.1.0` in source identifies the stable release-preparation version. The `v0.1.0` tag and immutable published release are separate lifecycle events and are not implied by this changelog entry.
+Historical note: source version `0.1.0` alone was only release-preparation metadata; the `v0.1.0` tag and GitHub Release were subsequently published on 2026-09-03 as separate lifecycle events.

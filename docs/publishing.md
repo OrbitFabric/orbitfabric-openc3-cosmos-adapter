@@ -1,12 +1,10 @@
 # Maintainer / Publisher Guide
 
-Current worktree: unpublished `0.2.1` post-migration candidate. See [release notes](releases/0.2.1.md). Prior release versions below describe historical baselines; new descriptors use `github.com/OrbitFabric`.
+Current published release: [`v0.2.1`](https://github.com/OrbitFabric/orbitfabric-openc3-cosmos-adapter/releases/tag/v0.2.1) (2026-09-25). See [release notes](releases/0.2.1.md). Historical `v0.1.0` retained its FAROTECH identity; `v0.2.0` and `v0.2.1` are published under OrbitFabric.
 
 Release construction is a maintainer responsibility and is separate from normal adapter consumption.
 
-The source version is `0.2.1`. The immutable `v0.1.0` release remains
-published under its historical Source Coordinate. The next release is `v0.2.1`
-and must complete all release gates before publication.
+The current source and public GitHub Release are both `0.2.1`. Its wheel and Release Descriptor are already published and indexed in the canonical Adapter Catalog. The earlier `v0.1.0` and `v0.2.0` releases remain available with their original exact release identities.
 
 ## Release ownership
 
@@ -82,7 +80,7 @@ Rendered:
 github.com/OrbitFabric:orbitfabric/openc3-cosmos
 ```
 
-The logical key remains `orbitfabric/openc3-cosmos`. Historical release identity is not rewritten when repository ownership changes.
+The current `v0.2.1` release uses the same OrbitFabric authority as `v0.2.0`. The logical key remains `orbitfabric/openc3-cosmos`; historical release identity is not rewritten when repository ownership changes.
 
 ## Required source gates
 
@@ -103,7 +101,9 @@ exact-source native COSMOS acceptance
 
 Core conformance and downstream-native acceptance remain separate evidence layers.
 
-## Publication sequence
+## Publication sequence (reusable for future releases)
+
+The following sequence describes required gates before a future release; the `v0.2.1` values below refer to the already-published release example. Publication status is recorded separately from any independent post-publication external greenfield acceptance.
 
 After exact stable source acceptance:
 
@@ -122,7 +122,7 @@ accepted stable main commit
     -> final Architecture Lab publication evidence
 ```
 
-The repository is public and now lives under the OrbitFabric GitHub Organization.
+The `v0.2.1` GitHub Release is published (2026-09-25) with its exact wheel, descriptor and checksum assets; the preceding sequence is not a claim that every external acceptance step was independently rerun after that publication. The repository is public and lives under the OrbitFabric GitHub Organization.
 
 ## No source provenance shortcuts
 

@@ -48,6 +48,10 @@ Start here when accepting source, constructing release artifacts or retaining ev
 - [Evidence and Traceability](evidence-and-traceability.md)
 - [Adapter Identity](adapter-identity.md)
 
-The current source prepares `0.2.0` with generic Scenario Projection
-Accounting. The immutable `v0.1.0` release remains the published baseline
-until a new release completes its own acceptance.
+The current published release is [`v0.2.1`](https://github.com/OrbitFabric/orbitfabric-openc3-cosmos-adapter/releases/tag/v0.2.1), indexed as `github.com/OrbitFabric:orbitfabric/openc3-cosmos@0.2.1` in the canonical Adapter Catalog. The published `v0.2.0` introduced generic Scenario Projection Accounting; historical `v0.1.0` retains its original FAROTECH Source Coordinate and acceptance evidence. Publication does not change the `0.1-candidate` accounting contract's maturity or introduce new projection behavior.
+
+## Releases
+
+- [0.2.1 release notes](releases/0.2.1.md)
+- [0.2.0 GitHub Release](https://github.com/OrbitFabric/orbitfabric-openc3-cosmos-adapter/releases/tag/v0.2.0)
+- [0.1.0 historical GitHub Release](https://github.com/OrbitFabric/orbitfabric-openc3-cosmos-adapter/releases/tag/v0.1.0)
