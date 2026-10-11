@@ -1,20 +1,18 @@
 # OrbitFabric OpenC3 COSMOS Adapter
 
-Candidate `0.2.1` is unpublished and awaits review. See [candidate release notes](docs/releases/0.2.1.md). New releases use the canonical `github.com/OrbitFabric` authority.
+**Current published release:** [`v0.2.1`](https://github.com/OrbitFabric/orbitfabric-openc3-cosmos-adapter/releases/tag/v0.2.1) (2026-09-25), indexed in the [OrbitFabric Adapter Catalog](https://github.com/OrbitFabric/orbitfabric-adapter-catalog). Current releases use `github.com/OrbitFabric`; historical FAROTECH release identities remain unchanged. Published product versions do not promote candidate Core-owned lifecycle or integration contracts.
 
 Canonical OrbitFabric adapter for projecting selected mission verification intent toward [OpenC3 COSMOS](https://github.com/OpenC3/cosmos).
 
 OrbitFabric and OpenC3 COSMOS remain independent systems. OrbitFabric Core owns generic mission and integration contracts, this adapter owns COSMOS-specific projection, and COSMOS owns downstream execution semantics and runtime behavior.
 
-> **Release status:** `v0.1.0` is published as an immutable GitHub Release from source commit `1e6f477ba0571996fa72dfd0b719a522dcc84ff1`. The release has passed the native OpenC3 COSMOS acceptance, release proof and published-product evidence declared for the first stable line.
-
-The current source prepares patch candidate `0.2.1`. Published `0.2.0` uses the OrbitFabric Organization authority and includes Scenario Projection Accounting. Published `0.1.0` retains its immutable historical FAROTECH Source Coordinate.
+> **Release lineage:** `v0.1.0` is the historical FAROTECH-identity release, published from source commit `1e6f477ba0571996fa72dfd0b719a522dcc84ff1` with its separately accepted native COSMOS/runtime evidence. `v0.2.0` is the published OrbitFabric-identity release that added generic Scenario Projection Accounting. Current `v0.2.1` normalizes active release identity and metadata without introducing projection behavior changes. All three versions remain independently selectable by exact Catalog identity.
 
 ## Choose your path
 
 ### I want to use the adapter
 
-Use the published `v0.2.0` release through **OrbitFabric Adapter Manager**.
+Use the published `v0.2.1` release through **OrbitFabric Adapter Manager**.
 
 ```text
 OrbitFabric Core
@@ -311,7 +309,7 @@ console command  orbitfabric-openc3-cosmos
 adapter.id       orbitfabric-openc3-cosmos
 integration.id   orbitfabric-openc3-cosmos
 logical key      orbitfabric/openc3-cosmos
-version          0.2.0
+version          0.2.1
 ```
 
 ## Repository structure
@@ -359,6 +357,12 @@ tools/
 - [Integration Contracts](docs/integration-contracts.md)
 - [Testing and Conformance](docs/testing-and-conformance.md)
 - [CONTRIBUTING.md](CONTRIBUTING.md)
+
+### Releases
+
+- [0.2.1 release notes](docs/releases/0.2.1.md)
+- [0.2.0 GitHub Release](https://github.com/OrbitFabric/orbitfabric-openc3-cosmos-adapter/releases/tag/v0.2.0)
+- [0.1.0 historical GitHub Release](https://github.com/OrbitFabric/orbitfabric-openc3-cosmos-adapter/releases/tag/v0.1.0)
 
 ### Maintainer / Publisher
 

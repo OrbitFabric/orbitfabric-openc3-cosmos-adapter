@@ -1,8 +1,10 @@
 # Getting Started
 
-## Current onboarding candidate
+## Install the current published release
 
-After approved publication of Core 1.4.0, GitHub Release Source 0.1.0 and this adapter 0.2.1, and promotion of its exact descriptor to the Catalog:
+Core [v1.4.0](https://github.com/OrbitFabric/orbitfabric/releases/tag/v1.4.0), GitHub Release Source [v0.1.0](https://github.com/OrbitFabric/orbitfabric-github-release-source/releases/tag/v0.1.0) and this adapter [v0.2.1](https://github.com/OrbitFabric/orbitfabric-openc3-cosmos-adapter/releases/tag/v0.2.1) were published on 2026-09-25. The adapter's exact Release Descriptor digest is indexed in the canonical Catalog. Product publication does not promote Core-owned adapter lifecycle or integration contracts from candidate maturity; no PyPI publication is assumed.
+
+The current Catalog-based consumer path is:
 
 ```bash
 python3 -m venv .venv
@@ -13,18 +15,21 @@ orbitfabric adapter list
 orbitfabric adapter verify <instance-id>
 ```
 
-These candidate releases are not yet published. The new installed identity is `github.com/OrbitFabric:orbitfabric/openc3-cosmos@0.2.1`. No clone, manual adapter download or Project Lock is required. Use `--catalog-revision <commit-sha>` to pin the Catalog, or `--catalog ./catalog.json` for a local snapshot.
+The installed identity is `github.com/OrbitFabric:orbitfabric/openc3-cosmos@0.2.1`. No repository clone, manual adapter download or Project Lock is required for this Catalog/provider path. Use `--catalog-revision <40-character-commit-sha>` to pin the Catalog, or `--catalog ./catalog.json` for a local snapshot. Obtain the matching `v0.2.1` source archive only when example files or runner scripts are needed. Publication alone does not establish a separate post-publication external greenfield acceptance for this coordinated version.
 
 ## Historical manual installation reference
 
-The prior-release instructions below preserve the historical baseline. They are not the current canonical onboarding demonstration. Historical FAROTECH Source Coordinates remain immutable.
+The explicit-source walkthrough below preserves the historical `v0.1.0` baseline and its original FAROTECH Source Coordinate. It is not the current `v0.2.1` Catalog-based onboarding path. Historical release bytes and accepted evidence remain unchanged.
 
 This page describes the **consumer** path.
 
 The normal OrbitFabric user installs a released adapter through Adapter Manager and executes it through Core. Editable source installs and the direct adapter CLI belong to the contributor workflow documented in [Development](development.md).
 
-> `v0.1.0` is the current immutable release. The repository source prepares
-> `0.2.0` and must complete its release acceptance before publication.
+> **Historical v0.1.0 walkthrough:** `v0.1.0` remains published and immutable. The steps below use its explicit-source wheel and exact historical Core pin. Current consumers should follow the `v0.2.1` published installation above; `v0.2.0` remains available as an exact published intermediate release.
+
+## Historical explicit-source installation and execution
+
+The following numbered steps preserve the `v0.1.0` accepted reference lane; use the matching historical wheel, tag and example inputs for reproducibility. They are not interchangeable with current `v0.2.1` assets.
 
 ## 1. Install OrbitFabric Core
 

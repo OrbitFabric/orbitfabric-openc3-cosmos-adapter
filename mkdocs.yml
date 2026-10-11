@@ -46,6 +46,8 @@ nav:
       - Architecture and Ownership: architecture-and-ownership.md
       - Integration Contracts: integration-contracts.md
       - Testing and Conformance: testing-and-conformance.md
+  - Releases:
+      - 0.2.1: releases/0.2.1.md
   - Maintainer / Publisher:
       - Publishing: publishing.md
       - Release Readiness Checklist: adapter-readiness-checklist.md
